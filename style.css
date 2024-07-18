@@ -1,0 +1,140 @@
+
+*,
+*::before,
+*::after{
+  
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+/* @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap'); */
+
+:root{
+  
+  --fnt-primary:"Inter", sans-serif;
+  --fnt-secound: "Dancing Script", cursive;
+
+  --clr-nutral-hsl-100: 0, 0%, 100%;
+  --clr-nutral-hsl-200: 8, 77%, 57%;
+  --clr-nutral-hsl-300: 0, 0%, 56%;
+  --clr-nutral-hsl-400: 0, 0%, 13%;
+  --clr-nutral-hsl-500: 0, 0%, 0%;
+  
+  --clr-nutral-100: hsl(var(--clr-nutral-hsl-100));
+  --clr-nutral-200: hsl(var(--clr-nutral-hsl-200));
+  --clr-nutral-300: hsl(var(--clr-nutral-hsl-300));
+  --clr-nutral-400: hsl(var(--clr-nutral-hsl-400));
+  --clr-nutral-500: hsl(var(--clr-nutral-hsl-500));
+  
+}
+
+/* TODO In this :root section I repeat color name twice because in this layout has many opacity lavel if I manually change one by one, it require more time and also I cant use the change value, so if I change only the var value it can't impact on primary color. more--> :https://youtu.be/_2LwjfYc1x8 */
+
+/*** mobile first layout ***/
+
+body{
+
+  font-family: var(--fnt-primary);
+
+}
+
+header{
+
+  background: linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0.733), rgba(0, 0, 0, 0.733));
+  color: var(--clr-nutral-100);
+}
+
+
+header #navigation{
+
+  border:2px solid lime;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
+}
+
+
+header h2{
+
+  color: var(--clr-nutral-200);
+  font-size: 2rem;
+}
+
+header ul{
+
+  display: none;
+}
+
+
+
+header span i{
+
+  font-size: 1.5rem;
+
+}
+
+.header_text_image_section{
+
+  padding: 1.5rem;
+
+}
+
+.header_text_image_section .text_container h1{
+
+  font-size:3rem;
+  margin-top: 1rem;
+
+}
+
+.header_text_image_section .text_container h1 pre span{
+
+  font-family: var(--fnt-secound);
+
+
+}
+
+
+.header_text_image_section .text_container p{
+
+  font-size: 1.3rem;
+  width: 75%;
+  margin-bottom: 1.3rem;
+
+}
+
+.header_text_image_section .text_container .btn button{
+
+  padding: 1.5rem 4rem;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 3rem;
+  background: transparent;
+  border: 1px solid var(--clr-nutral-100);
+  }
+
+.header_text_image_section .text_container .btn button:hover{
+
+  border: none;
+  background-color: var(--clr-nutral-200);
+  }
+  
+
+.header_text_image_section .text_container .btn .btn_1{
+
+  padding: 1.5rem 5rem;
+  color: red;
+  margin-bottom: 0.7rem;
+  margin-right: 0.7rem;
+
+  }
+  
+  .header_text_image_section .text_container .btn button a{
+    
+    text-decoration: none;
+    color: var(--clr-nutral-100);
+  }
+
