@@ -43,7 +43,7 @@ body{
 
 header{
 
-  background: linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0.733), rgba(0, 0, 0, 0.733));
+  background: linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0.801), rgb(0, 0, 0));
   color: var(--clr-nutral-100);
 }
 
@@ -102,13 +102,14 @@ header span i{
 
   font-size: 1.3rem;
   width: 75%;
-  margin-bottom: 1.3rem;
+  margin-bottom: 1.5rem;
+  color: hsl(var(--clr-nutral-hsl-100), 0.5);
 
 }
 
 .header_text_image_section .text_container .btn button{
 
-  padding: 1.5rem 4rem;
+  padding: 1rem 3rem;
   font-size: 1.1rem;
   border: none;
   border-radius: 3rem;
@@ -125,7 +126,7 @@ header span i{
 
 .header_text_image_section .text_container .btn .btn_1{
 
-  padding: 1.5rem 5rem;
+  padding: 1rem 4rem;
   color: red;
   margin-bottom: 0.7rem;
   margin-right: 0.7rem;
@@ -137,4 +138,80 @@ header span i{
     text-decoration: none;
     color: var(--clr-nutral-100);
   }
+
+
+  .img_container {
+
+    border: 1px solid navy;
+    display: flex;
+    background-image: url(/ressources/Images\ 2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 40rem;
+    position: relative;
+  }
+
+  .img_container .card_1{
+
+    margin-right: 1rem;
+    
+  }
+
+  .img_container .card_1, .card_2{
+
+    
+    background-color: hsl(var(--clr-nutral-hsl-100), 0.2);
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.418);
+    padding: 1rem;
+    border-radius: 1rem;
+    height: 6rem;
+    position: absolute;
+  }
+
+  .img_container .card_1 a, .card_2 a{
+
+    list-style-type: none;
+    color: var(--clr-nutral-100);
+    text-decoration: none;
+    
+  }
+    
+      .img_container .card_1 h3, .card_2 h3{
+    
+        font-size: 2.5rem;
+        
+      }
+    
+      .img_container .card_1 p, .card_2 p{
+    
+        color: hsl(var(--clr-nutral-hsl-100), 0.5);
+        
+      }
+
+
+.img_container .card_1{
+
+  top: 5%;
+  right: 0%;
+  position: absolute;
+}
+
+
+.img_container .card_2{
+
+  display: flex;
+  justify-content: baseline;
+  bottom: 40%;
+    }
+    
+    .img_container .card_2 i{
+    
+      font-size: 3rem;
+      padding-top: 0.5rem;
+      padding-right: 0.7rem;
+      color: var(--clr-nutral-200);
+    }
+
+
 
