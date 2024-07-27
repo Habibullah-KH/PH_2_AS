@@ -7,6 +7,7 @@
     border: 2px solid rgb(255, 0, 0);
   }
 
+
 }
 
 
@@ -72,8 +73,16 @@ header ul li:hover{
   bottom: 40%;
   left: 20%;
     }
+
+
+main .sec1 .main_sec1_img_container{
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
 }
 
+}
 
 /** large */
 @media screen and (min-width:993px){
@@ -146,5 +155,12 @@ header #navigation span{
   bottom: 40%;
   left: 20%;
     }
-}
+    
+    
+    
+    main .sec1 .main_sec1_img_container{
+      
+  display: flex;
 
+}
+    }
