@@ -55,7 +55,7 @@ header{
 
 header #navigation{
 
-  border:2px solid lime;
+  /* border:2px solid lime; */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -147,7 +147,7 @@ header span i{
 
   .img_container {
 
-    border: 1px solid navy;
+    /* border: 1px solid navy; */
     display: flex;
     background-image: url(/ressources/Images\ 2.png);
     background-repeat: no-repeat;
@@ -374,3 +374,137 @@ header span i{
     margin-top: 1rem;
     border-radius: 1rem;
   }
+
+
+
+  
+
+  .sec3 {
+
+    background-color: hsl(var(--clr-nutral-hsl-500));
+    color: hsl(var(--clr-nutral-hsl-100));
+    border: 1px solid red;
+  }
+  
+  .sec3 .sec3_header_text{
+    padding: 2rem;
+  }
+
+
+  .sec3 .sec3_header_text h2{
+
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    padding-top: 1.5rem;
+  }
+
+  
+  .sec3 .sec3_header_text p{
+
+    font-size: 0.8rem;
+    color: var(--tp-clr-50);
+    line-height: 1.3rem;
+  }
+
+  
+  
+    .sec3 .sec_3_table_form_section{
+  
+      display: flex;
+      flex-direction: column;
+      padding: 1.8rem;
+      
+    }
+  
+    .sec3 .sec_3_table_form_section .sec3_table_area h3{
+  
+      padding-bottom: 1rem;
+
+    }
+  
+    .sec3 .sec_3_table_form_section .sec3_table_area table, tr, th, td{
+  
+      border: 1px solid var(--tp-clr-20);
+      border-collapse: collapse;
+      padding: 0.4rem;
+      text-align: left;
+
+    }
+  
+    .sec3 .sec_3_table_form_section .sec3_table_area table{
+  
+      margin-bottom: 2rem;
+
+    }
+    
+      .sec3 .sec_3_table_form_section .sec3_table_area td{
+    
+        color: var(--tp-clr-50);
+  
+      }
+  
+    
+    .sec3 .sec3_form_area h3, p{
+  
+      margin-bottom: 1rem;
+    }
+    
+    .sec3 .sec3_form_area p{
+  
+      color: var(--tp-clr-50);
+      font-size: 0.8rem;
+      line-height: 1.3rem;
+    }
+    
+    .sec3 .sec3_form_area .form_container{
+  
+      /* border: 2px solid red; */
+      display: grid;
+      grid-template-columns:50% 50%;
+    }
+    
+    .sec3 .sec3_form_area .form_container #actibity{
+  
+      grid-column: span 2;
+    }
+      
+      .sec3 .sec3_form_area .form_container input, select{
+    
+        /* border: 2px solid limegreen; */
+        padding: 0.8rem;
+        border-radius: 0.3rem;
+        color: var(--tp-clr-50);
+        background-color: var(--tp-clr-20);
+        border: none;
+        margin: 0.3rem;
+        font-weight: bold;
+      }
+      
+      .sec3 .sec3_form_area .form_container select option{
+    
+      
+      /* background: var(--tp-clr-50); */
+      background-color: var(--tp-clr-20);
+      color: black;
+
+      }
+      
+      .sec3 .sec3_form_area button{
+    
+  margin-top: 1rem;
+  padding: 1rem 3rem;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 3rem;
+  background: transparent;
+  border: 1px solid var(--clr-nutral-100);
+  color: var(--clr-nutral-100);
+      
+      }
+      
+      .sec3 .sec3_form_area button:hover{
+    
+        border: none;
+        background-color: var(--clr-nutral-200);
+      
+      }
