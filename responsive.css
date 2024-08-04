@@ -167,6 +167,27 @@ footer .end_info{
 }
 
 
+.sec4 .sec4_img_container{
+
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  align-items: center;
+  width: 95%;
+}
+
+.sec4 .sec4_img_container .trainer{
+  
+  /* border: 1px solid red; */
+  width: 90%;
+  height: 20rem;
+  margin: 0px auto;
+  border-radius: 1rem;
+  margin: 0.5rem;
+  /* background-repeat: no-repeat; */
+  /* object-position: 20% 100%; */
+}
 
 
 }
@@ -419,6 +440,28 @@ footer .end_info{
       }
 
 
+
+      .sec4 .sec4_img_container{
+
+
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-items: center;
+        align-items: center;
+        width: 95%;
+      }
+      
+      .sec4 .sec4_img_container .trainer{
+        
+        /* border: 1px solid red; */
+        width: 90%;
+        height: 30rem;
+        margin: 0px auto;
+        border-radius: 1rem;
+        margin: 1.5rem;
+        /* background-repeat: no-repeat; */
+        /* object-position: 20% 100%; */
+      }
 
 
 

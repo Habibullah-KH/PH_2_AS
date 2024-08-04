@@ -599,47 +599,60 @@ footer .end_info{
 
 }
 
-.sec4 .sec_text_container{
+.sec4 .sec4_text_container h2{
 
-  text-align: center;
+  font-size: 2rem;
 }
 
-.sec4 .sec_text_container p{
+.sec4 .sec4_text_container{
+
+  text-align: center;
+  margin: 2.5rem 0 4rem 0;
+}
+
+.sec4 .sec4_text_container p{
 
   font-size: 0.8rem;
 
 }
 
-.sec4 .sec_img_container .trainer{
+.sec4 .sec4_img_container{
 
-  border: 1px solid red;
-  
-  width: 21rem;
-  height: 25rem;
+  background-color: var(--tp-clr-20);
+  border-radius: 2rem;
+  padding: 0.5rem;
   margin: 0px auto;
-  border-radius: 1rem;
-  margin-top: 1rem;
-  /* background-repeat: no-repeat; */
-  /* object-position: 20% 100%; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+
+
 }
 
-.sec4 .sec_img_container .trainer h3{
+.sec4 .sec4_img_container .trainer{
+
+  /* border: 1px solid red; */
+  width: 90%;
+  height: 20rem;
+  border-radius: 1rem;
+  position: relative;
+  margin: 0.8rem;
+
+}
+
+.sec4 .sec4_img_container .trainer h3{
 
   font-size: 1.7rem;
 }
 
-.sec4 .sec_img_container .trainer p{
+.sec4 .sec4_img_container .trainer p{
 
   font-size: 0.8rem;
 }
 
-.sec4 .sec_img_container .trainer{
-
-  position: relative;
-}
-
-
-.sec4 .sec_img_container .trainer img{
+.sec4 .sec4_img_container .trainer img{
   
   border-radius: 1rem;
   width: 100%;
@@ -648,7 +661,7 @@ footer .end_info{
   object-fit: cover;
 }
 
-.sec4 .sec_img_container .trainer .couch{
+.sec4 .sec4_img_container .trainer .couch{
 
   position: absolute;
   bottom: 0.2rem;
