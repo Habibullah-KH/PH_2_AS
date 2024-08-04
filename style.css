@@ -6,6 +6,7 @@
   box-sizing: border-box;
   margin: 0px;
   padding: 0px;
+  
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
@@ -43,6 +44,7 @@
 body{
 
   font-family: var(--fnt-primary);
+  overflow-x: hidden;
 
 }
 
@@ -580,3 +582,77 @@ footer .end_info{
   margin-top: 1rem;
 
 }
+
+.sec4 {
+
+  background-color: var(--clr-nutral-500);
+  color: var(--clr-nutral-100);
+  padding: 2rem;
+  overflow: hidden;
+
+}
+
+.sec4 .trainer span p{
+
+  margin: 0px;
+  padding-bottom: 1rem;
+
+}
+
+.sec4 .sec_text_container{
+
+  text-align: center;
+}
+
+.sec4 .sec_text_container p{
+
+  font-size: 0.8rem;
+
+}
+
+.sec4 .sec_img_container .trainer{
+
+  border: 1px solid red;
+  
+  width: 21rem;
+  height: 25rem;
+  margin: 0px auto;
+  border-radius: 1rem;
+  margin-top: 1rem;
+  /* background-repeat: no-repeat; */
+  /* object-position: 20% 100%; */
+}
+
+.sec4 .sec_img_container .trainer h3{
+
+  font-size: 1.7rem;
+}
+
+.sec4 .sec_img_container .trainer p{
+
+  font-size: 0.8rem;
+}
+
+.sec4 .sec_img_container .trainer{
+
+  position: relative;
+}
+
+
+.sec4 .sec_img_container .trainer img{
+  
+  border-radius: 1rem;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-fit: cover;
+}
+
+.sec4 .sec_img_container .trainer .couch{
+
+  position: absolute;
+  bottom: 0.2rem;
+  margin-left: 1rem;
+
+}
+
