@@ -518,72 +518,8 @@ header span i{
         background-color: var(--clr-nutral-200);
       
       }
-
-
-footer{
-
-  background-color: var(--clr-nutral-500);
-  color: var(--clr-nutral-100);
-  padding: 2rem 1rem;
-}
-
-/* footer .contact3{
-
-  border-bottom: 1px solid var(--tp-clr-20);
-} */
-
-footer h3{
-
-  margin-bottom: 1rem;
-  
-  
-}
-
-footer h2{
-
-  font-size: 2rem;
-  font-style: italic;
-  color: var(--clr-nutral-200);
-  margin-bottom: 1rem;
-
-}
-
-footer ul{
-
-  margin-bottom: 1rem;
-  list-style-type: none;
-  
-}
-
-footer li, p{
-
-  color: var(--tp-clr-50);
-  line-height: 1.5rem;
-
-}
-
-footer li a{
-
-  cursor: pointer;
-  text-decoration: none;
-  color: var(--tp-clr-50);
-  
-
-}
-
-footer li a:hover{
-
-  color: var(--clr-nutral-200);
-
-}
-
-footer .end_info{
-
-  margin-top: 1rem;
-
-}
-
-.sec4 {
+      
+      .sec4 {
 
   background-color: var(--clr-nutral-500);
   color: var(--clr-nutral-100);
@@ -628,12 +564,12 @@ footer .end_info{
   align-items: center;
   width: 80%;
   position: relative;
-
-
+  
+  
 }
 
 .sec4 .sec4_img_container .trainer{
-
+  
   /* border: 1px solid red; */
   width: 90%;
   height: 20rem;
@@ -644,7 +580,7 @@ footer .end_info{
 }
 
 .sec4 .sec4_img_container .trainer h3{
-
+  
   font-size: 1.7rem;
 }
 
@@ -695,3 +631,68 @@ footer .end_info{
 .sec4 .sec4_img_container .trainer:hover .overlay {
   height: 100%;
 }
+
+  
+  
+  footer{
+  
+    background-color: var(--clr-nutral-500);
+    color: var(--clr-nutral-100);
+    padding: 7rem 1rem 1rem 1rem;
+  }
+  
+  /* footer .contact3{
+  
+    border-bottom: 1px solid var(--tp-clr-20);
+  } */
+  
+  footer h3{
+  
+    margin-bottom: 1rem;
+    
+    
+  }
+  
+  footer h2{
+  
+    font-size: 2rem;
+    font-style: italic;
+    color: var(--clr-nutral-200);
+    margin-bottom: 1rem;
+  
+  }
+  
+  footer ul{
+  
+    margin-bottom: 1rem;
+    list-style-type: none;
+    
+  }
+  
+  footer li, p{
+  
+    color: var(--tp-clr-50);
+    line-height: 1.5rem;
+  
+  }
+  
+  footer li a{
+  
+    cursor: pointer;
+    text-decoration: none;
+    color: var(--tp-clr-50);
+    
+  
+  }
+  
+  footer li a:hover{
+  
+    color: var(--clr-nutral-200);
+  
+  }
+  
+  footer .end_info{
+  
+    margin-top: 1rem;
+  
+  }
