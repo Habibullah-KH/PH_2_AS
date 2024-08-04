@@ -627,6 +627,7 @@ footer .end_info{
   justify-content: center;
   align-items: center;
   width: 80%;
+  position: relative;
 
 
 }
@@ -669,3 +670,28 @@ footer .end_info{
 
 }
 
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: hsl(var(--clr-nutral-hsl-200), 0.5);
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.overlay h3{
+  
+  font-size: 2rem;
+  color: var(--clr-nutral-100);
+  font-weight: bolder;
+}
+
+.sec4 .sec4_img_container .trainer:hover .overlay {
+  height: 100%;
+}
