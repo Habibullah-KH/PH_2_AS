@@ -45,6 +45,8 @@ body{
 
   font-family: var(--fnt-primary);
   overflow-x: hidden;
+  max-width: 1920px; 
+  mrgin: 0 auto;
 
 }
 
